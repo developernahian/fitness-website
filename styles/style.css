@@ -27,16 +27,22 @@
 /* TODO: shared Style */
 #second-color{
     background-color: rgb(230, 83, 60);
+
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
 }
 /* TODO: END */
 
-.nav-container{
-    width: 1200px;
+nav.container{
+    /* max-width: 1200px; */
     /* background-color: green; */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     margin-top: 55px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title h3{
@@ -55,20 +61,105 @@
     /* background-color: yellow; */
 }
 .nav-btn-container{
-    /* background-color: red; */
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+    border: 1px solid gray;
+    border-radius: 50px;
+
+    align-items: center;
+  padding: 7px 0;
+
+
+
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,1fr); */
 }
 .nav-btn{
     font-size: 1.125rem;
     font-weight: 600;
-    border-radius: 46px;
+    border-radius: 50px;
     background: black;
     width: 92px;
     height: 38px;
     border: none;
     /* margin-left: 20px; */
     justify-content: center;
-    margin-top: 6px;
-
+    /* margin-top: 6px; */
 }
+
+.nav-hamburger-menu{
+    display: none;
+}
+
+
+
+
+
+
+
+
+/* IMPORTANT: */
+/* nav.container.random{
+    background-color: red;
+} */
+
+
+
+
+
+
+
+
+
+/* TODO: Mobile Responsive */
+
+@media screen and (max-width:1200px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        max-width: 540px;
+    }
+
+    .nav-btn-container{
+        display: none;
+    }
+
+
+    .nav-hamburger-menu{
+        display: block;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .container{
+
+        /* flex-direction: row; */
+        padding: 0px 30px;
+        
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+/* TODO END of mobile responsive */
