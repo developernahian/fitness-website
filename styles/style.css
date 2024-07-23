@@ -5,14 +5,12 @@
     src: url("../font/Miama.ttf");
 }
 
-
 .inter-font {
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-
 
 .bg-dark{
     background-color: rgb(0, 0, 0);
@@ -24,14 +22,14 @@
     box-sizing: border-box;
     color: rgb(255, 255, 255);
 }
+
 /* TODO: shared Style */
 #second-color{
     background-color: rgb(230, 83, 60);
-
 }
+
 .container{
     max-width: 1140px;
-    
     margin: 0 auto;
 }
 
@@ -43,12 +41,10 @@ img{
     width: 100%;
     height: 100%;
 }
-/* TODO: END */
+
+/* TODO Shared style END */
 
 nav.container{
-    /* max-width: 1200px; */
-    /* background-color: green; */
-    /* margin: 0 auto; */
     margin-top: 55px;
     display: flex;
     justify-content: space-between;
@@ -58,33 +54,24 @@ nav.container{
 .nav-title h3{
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
-    /* font-size: 36px; */
     font-weight: 800;
     font-style: italic;
 }
 
 .nav-btn-container{
     width: 480px;
-    
 }
-.nav-title{
-    /* background-color: yellow; */
-}
+
 .nav-btn-container{
     border: 1px solid gray;
     border-radius: 50px;
-
     align-items: center;
     padding: 7px 0;
-
-
-
     display: flex;
     justify-content: center;
     gap: 30px;
-    /* display: grid; */
-    /* grid-template-columns: repeat(4,1fr); */
 }
+
 .nav-btn{
     font-size: 1.125rem;
     font-weight: 600;
@@ -93,9 +80,7 @@ nav.container{
     width: 92px;
     height: 38px;
     border: none;
-    /* margin-left: 20px; */
     justify-content: center;
-    /* margin-top: 6px; */
 }
 
 .nav-hamburger-menu{
@@ -104,9 +89,6 @@ nav.container{
 
 
 /* TODO: Banner Section Style Start */
-/* #banner > div{
-    flex: 1;
-} */
 
 #banner{
     margin-top: 30px;
@@ -114,17 +96,14 @@ nav.container{
 .banner-left{
     margin-top: 10px;
     margin-right: 250px;
-    /* background-color: green; */
     width: 65%;
-
-
-
 }
+
 .banner-right{
     position: relative;
-    /* background-color: red; */
     margin-right: 70px;
 }
+
 .banner-left h2{
     font-size: 4.875rem;
     font-weight: 900;
@@ -135,8 +114,8 @@ nav.container{
     font-family: Miama;
     font-weight: 400;
     font-size: 10rem;
-    /* font-size: 178px; */
 }
+
 .banner-left p{
     margin-top: 15px;
     color: rgba(255, 255, 255, 0.5);
@@ -144,17 +123,12 @@ nav.container{
     line-height: 24px;
 }
 .banner-btn-container{
-    /* background-color: yellow; */
     display: flex;
 }
 
-
 .banner-btn-container{
-
     display: flex;
     flex-direction: row;
-    
-
 }
 
 .banner-btn-container button{
@@ -163,13 +137,11 @@ nav.container{
     font-weight: 600;
     width: 200px;
     height: 50px;
-    /* margin: 0px 14px; */
     border-radius: 42px;
-
     background: rgb(230, 83, 60);
     border: none;
-    
 }
+
 .banner-btn-container .banner-btn-two button{
     background-color: black;
     margin-left: 20px;
@@ -177,20 +149,12 @@ nav.container{
 }
 
 
-
-
-
-/* IMPORTANT: */
 .banner-right .transparent-one{
     position: absolute;
-
     width: 173px;
     height: 84px;
-
     margin-top: -132px;
     margin-left: -104px;
-
-
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -200,14 +164,10 @@ nav.container{
 
 .banner-right .transparent-two{
     position: absolute;
-
     width: 173px;
     height: 84px;
-
     margin-top: -357px;
     margin-left: 170px;
-
-
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -220,7 +180,7 @@ nav.container{
     width: 30px;
     height: 30px;
     border-radius: 50%;
-    background-color: red;
+    background: rgb(230, 83, 60);
 }
 
 
@@ -228,7 +188,6 @@ nav.container{
     display: flex;
 }
 .transparent-one .num350{
-
     display: inline-block;
     margin-left: 12px;
     margin-top: 15px;
@@ -243,9 +202,6 @@ nav.container{
     font-size: 1rem;
     font-weight: 400;
 }
-
-
-
 
 .transparent-two .num500{
     display: inline-block;
@@ -262,28 +218,457 @@ nav.container{
     color: rgba(255, 255, 255, 0.65);
 }
 
-
-
-
-
-
 /* TODO Banner Section END */
 
 
+/* TODO: Habit Section Start */
+#habit-main-container{
+    margin-top: 110px;
+}
+
+.habit-change{
+    text-align: center;
+    width: 670px;
+    margin: 0 auto;
+}
+
+.habit-change h3{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.habit-change p{
+    margin-top: 14px;
+    font-size: 1rem;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Cards section*/
+.habit-card-container{
+    margin-top: 58px;
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    width: 231px;
+    height: 274px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card img{
+    width: 180px;
+    height: 180px;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+}
+
+.card h5{
+    margin-top: 15px;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.card p{
+    margin-top: 6px;
+    font-size: 0.875rem;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* TODO Habbit Section END */
 
 
+/* TODO: Run section Start */
+.run-container{
+    margin-top: 100px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    justify-content: space-around;
+}
+
+.run-left .run-left-content{
+    max-width: 443px;
+}
+.run-left-content h2{
+    margin-top: 40px;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.run-left p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.run-left button{
+    margin-top: 28px;
+    margin-bottom: 40px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+
+.run-right .run-img{
+    max-width: 466px;
+    height: 312px;
+    overflow: hidden;
+    margin-top: 27px;
+    border-radius: 18px;
+}
+
+/* TODO Run section End */
+
+
+/* TODO: Shedule section Start */
+
+#shedule{
+    background-color: rgba(0, 0, 0, .3);
+    background-image: url("../images/exercise4.png");
+    background-blend-mode: overlay;
+    display: flex;
+    flex-direction: row;
+    border-radius: 18px;
+}
+
+#shedule .left{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#shedule .left h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#shedule .left button{
+    /* align-content: center; */
+    height: 54px;
+    width: 324px;
+    border-radius: 42px;
+    border: 1px solid white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    backdrop-filter: blur(3px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+#shedule .right{
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#shedule .right h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.calendar{
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    row-gap: 15px;
+    column-gap: 15px;
+    border-radius: 18px;
+    margin-bottom: 15px;
+}
+.date, .day{
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    border: 1px solid rgb(222, 158, 47);
+}
+
+.day{
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+.today{
+    border: 3px solid red;
+}
+
+/* Shedule Section End */
+
+
+/* TODO: Before BMI sectin start */
+
+.before-bmi h2{
+    margin-top: 50px;
+    padding-left: 150px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+
+.before-bmi p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    padding-left: 150px;
+    max-width: 800px;
+}
+
+/* Before BMI section end */
+
+
+
+/* TODO: BMI Section Start */
+
+
+.bmi-main-container{
+    margin-top: 50px;
+    background: rgb(34, 34, 34);
+}
+
+.bmi{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.bmi-left h3{
+    margin-top: 35px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.bmi-right{
+    padding-left: 70px;
+}
+
+table{
+    margin-top: 35px;
+    border-collapse: collapse;
+    border: 2px solid rgb(54, 54, 54);
+}
+
+th, td{
+    border: 2px solid rgb(54, 54, 54);
+    padding: 10px 40px;
+    height: 30px;
+    text-align: left;
+    padding-left: 15px;
+    color: rgb(114, 114, 114);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+th{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: rgb(114, 114, 114);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-right h3{
+    margin-top: 27px;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.bmi-right p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.form{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.activity{
+    grid-column: span 2;
+}
+
+.form{
+    margin-top: 15px;
+}
+
+.form input , .form select{
+    outline: none;
+    color: rgba(255, 255, 255, 0.5);
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 7px;
+    border: none;
+    background-color: rgb(54, 54, 54) !important;
+}
+
+.form input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.bmi-right form button{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 200px;
+    height: 50px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+}
+
+/* BMI Section Style END */
+
+/* TODO: Team section Start */
+.team-container{
+    margin-top: 100px;
+}
+
+.team-header{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom:60px;
+}
+
+.team-header h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.team-header p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.team-cards{
+    background: rgb(34, 34, 34);
+    border-radius: 18px;
+}
+.card-img{
+    border-radius: 18px;
+    height: 300px;
+    width: 350px;
+}
+.team-container .team-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 22px;
+    border-radius: 18px;
+}
+
+.team-cards > div{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.card-img{
+    position: relative;
+}
+
+.card-text{
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+.card-text h4{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.card-text p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* Team section End */
+
+
+/* TODO: Footer Section Start */
+
+footer{
+    margin-top: 70px;
+    background: rgb(34, 34, 34);
+}
+
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer-left h2{
+    padding-top: 35px;
+    color: rgb(230, 83, 60);
+    font-size: 3.25rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.footer-left p{
+    margin-top: 15px;
+    max-width: 450px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.footer-middle h3, .footer-right h3{
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.footer-nav a{
+    display: block;
+    text-decoration: none;
+    line-height: 32px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.150rem;
+}
+
+hr{
+    margin-top: 30px;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+footer .coppy{
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding-bottom: 20px;
+}
 
 
 /* IMPORTANT: */
 /* nav.container.random{
     background-color: red;
 } */
-
-
-
-
-
-
 
 
 
@@ -316,7 +701,6 @@ nav.container{
         display: block;
     }
 
-
 }
 
 
@@ -324,23 +708,16 @@ nav.container{
 @media screen and (max-width:576px) {
 
     .container{
-
-        /* flex-direction: row; */
         padding: 0px 30px;
         
     }
 
 
-
-
-
-    /*TODO: Banner section style */
+    /*TODO Banner section style */
     #banner{
         flex-direction: column;
     }
-    .banner-left{
-        /* width: 80%; */
-    }
+
 
     .banner-left h2{
         font-size: 2.5rem;
@@ -350,20 +727,12 @@ nav.container{
 
         font-size: 5rem;
     }
-    .banner-left p{
 
-    }
 
     .banner-btn-container button{
         width: 185px;
     }
 
-
-
-
-    .banner-right{
-        /* height: 588px; */
-    }
 
     .banner-right .transparent-one{
         margin-top: -311px;
@@ -371,25 +740,100 @@ nav.container{
     }
 
     .banner-right .transparent-two{
-        /* margin-top: -603px;
-        margin-left: 230px; */
         margin-top: -540px;
         margin-left: 216px;
     }
 
 
+    /* TODO Habit Section */
+
+    #habit-main-container{
+        margin-top: 0px;
+    }
+
+    .habit-change{
+        width: 318px;
+    }
+
+    .habit-change h3{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    
+    .habit-card-container{
+        flex-direction: column;
+    }
+
+    /* TODO: Run container */
+    .run-container{
+        flex-direction: column;
+        margin: 0 30px;
+        padding-left: 20px;
+    }
+
+    .run-right .run-img{
+        max-width: 466px;
+        height: 312px;
+        margin-bottom: 27px;
+    }
+
+    .run-left .run-left-content button{
+        display: block;
+        margin: 0 auto;
+        margin-top: 28px;
+        width: 324px;
+    }
+ 
+
+    /* TODO Extra section */
+    #shedule{
+        flex-direction: column;
+    }
+
+    #shedule .left{
+        margin: 0 auto;
+    }
 
 
+    /* TODO Before BMI section */
+    .before-bmi h2{
+        padding-left: 4px;
+    }
 
+    .before-bmi p{
+        max-width: 320px;
+        padding-left: 4px;
+    }
+
+
+    /* TODO BMI Section */
+
+    .bmi{
+        grid-template-columns: 1fr;
+    }
+
+    .bmi-right{
+        padding: 0;
+    }
+
+    /* TODO Team section */
+
+    .team-header p{
+        max-width: 320px;
+    }
+
+    .team-container .team-cards{
+        grid-template-columns: 1fr;
+    }
+
+
+    /* TODO Footer section */
+
+    .footer-content{
+        grid-template-columns: 1fr;
+    }
     
 }
-
-
-
-
-
-
-
 
 
 /* TODO END of mobile responsive */
