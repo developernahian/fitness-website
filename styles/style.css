@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
-@font-face{
+@font-face {
     font-family: Miama;
     src: url("../font/Miama.ttf");
 }
@@ -12,11 +12,11 @@
     font-style: normal;
 }
 
-.bg-dark{
+.bg-dark {
     background-color: rgb(0, 0, 0);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -24,45 +24,45 @@
 }
 
 /* TODO: shared Style */
-#second-color{
+#second-color {
     background-color: rgb(230, 83, 60);
 }
 
-.container{
+.container {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.display-flex{
+.display-flex {
     display: flex;
 }
 
-img{
+img {
     width: 100%;
     height: 100%;
 }
 
 /* TODO Shared style END */
 
-nav.container{
+nav.container {
     margin-top: 55px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.nav-title h3{
+.nav-title h3 {
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 800;
     font-style: italic;
 }
 
-.nav-btn-container{
+.nav-btn-container {
     width: 480px;
 }
 
-.nav-btn-container{
+.nav-btn-container {
     border: 1px solid gray;
     border-radius: 50px;
     align-items: center;
@@ -72,7 +72,7 @@ nav.container{
     gap: 30px;
 }
 
-.nav-btn{
+.nav-btn {
     font-size: 1.125rem;
     font-weight: 600;
     border-radius: 50px;
@@ -83,55 +83,57 @@ nav.container{
     justify-content: center;
 }
 
-.nav-hamburger-menu{
+.nav-hamburger-menu {
     display: none;
 }
 
 
 /* TODO: Banner Section Style Start */
 
-#banner{
+#banner {
     margin-top: 30px;
 }
-.banner-left{
+
+.banner-left {
     margin-top: 10px;
     margin-right: 250px;
     width: 65%;
 }
 
-.banner-right{
+.banner-right {
     position: relative;
     margin-right: 70px;
 }
 
-.banner-left h2{
+.banner-left h2 {
     font-size: 4.875rem;
     font-weight: 900;
     line-height: 120%;
 }
 
-.miama-font{
+.miama-font {
     font-family: Miama;
     font-weight: 400;
     font-size: 10rem;
 }
 
-.banner-left p{
+.banner-left p {
     margin-top: 15px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
 }
-.banner-btn-container{
+
+.banner-btn-container {
     display: flex;
 }
 
-.banner-btn-container{
+.banner-btn-container {
     display: flex;
     flex-direction: row;
 }
 
-.banner-btn-container button{
+.banner-btn-container button {
     margin-top: 28px;
     font-size: 1.125rem;
     font-weight: 600;
@@ -142,14 +144,14 @@ nav.container{
     border: none;
 }
 
-.banner-btn-container .banner-btn-two button{
+.banner-btn-container .banner-btn-two button {
     background-color: black;
     margin-left: 20px;
     border: 1px solid white;
 }
 
 
-.banner-right .transparent-one{
+.banner-right .transparent-one {
     position: absolute;
     width: 173px;
     height: 84px;
@@ -162,7 +164,7 @@ nav.container{
 }
 
 
-.banner-right .transparent-two{
+.banner-right .transparent-two {
     position: absolute;
     width: 173px;
     height: 84px;
@@ -174,7 +176,7 @@ nav.container{
     background: rgba(48, 48, 48, 0.54);
 }
 
-.banner-right .transparent-one .orange-circle{
+.banner-right .transparent-one .orange-circle {
     margin-top: 27px;
     margin-left: 10px;
     width: 30px;
@@ -184,17 +186,19 @@ nav.container{
 }
 
 
-.transparent-one{
+.transparent-one {
     display: flex;
 }
-.transparent-one .num350{
+
+.transparent-one .num350 {
     display: inline-block;
     margin-left: 12px;
     margin-top: 15px;
     font-size: 1.5rem;
     font-weight: 900;
 }
-.transparent-one .text{
+
+.transparent-one .text {
     display: inline-block;
     margin-left: 10px;
     margin-top: 3px;
@@ -203,7 +207,7 @@ nav.container{
     font-weight: 400;
 }
 
-.transparent-two .num500{
+.transparent-two .num500 {
     display: inline-block;
     margin-top: 5px;
     padding-left: 27px;
@@ -211,7 +215,7 @@ nav.container{
     font-weight: 900;
 }
 
-.transparent-two .text{
+.transparent-two .text {
     padding-left: 27px;
     font-size: 0.8125rem;
     font-weight: 400;
@@ -222,22 +226,22 @@ nav.container{
 
 
 /* TODO: Habit Section Start */
-#habit-main-container{
+#habit-main-container {
     margin-top: 110px;
 }
 
-.habit-change{
+.habit-change {
     text-align: center;
     width: 670px;
     margin: 0 auto;
 }
 
-.habit-change h3{
+.habit-change h3 {
     font-size: 3rem;
     font-weight: 900;
 }
 
-.habit-change p{
+.habit-change p {
     margin-top: 14px;
     font-size: 1rem;
     line-height: 24px;
@@ -245,32 +249,33 @@ nav.container{
 }
 
 /* Cards section*/
-.habit-card-container{
+.habit-card-container {
     margin-top: 58px;
     display: flex;
     gap: 20px;
 }
 
-.card{
+.card {
     width: 231px;
     height: 274px;
     text-align: center;
     margin: 0 auto;
 }
-.card img{
+
+.card img {
     width: 180px;
     height: 180px;
     border: 5px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
 }
 
-.card h5{
+.card h5 {
     margin-top: 15px;
     font-size: 1.125rem;
     font-weight: 600;
 }
 
-.card p{
+.card p {
     margin-top: 6px;
     font-size: 0.875rem;
     line-height: 18px;
@@ -281,31 +286,32 @@ nav.container{
 
 
 /* TODO: Run section Start */
-.run-container{
+.run-container {
     margin-top: 100px;
     border-radius: 18px;
     background: rgb(34, 34, 34);
     justify-content: space-around;
 }
 
-.run-left .run-left-content{
+.run-left .run-left-content {
     max-width: 443px;
 }
-.run-left-content h2{
+
+.run-left-content h2 {
     margin-top: 40px;
     font-size: 3rem;
     font-weight: 900;
     line-height: 120%;
 }
 
-.run-left p{
+.run-left p {
     margin-top: 20px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
 }
 
-.run-left button{
+.run-left button {
     margin-top: 28px;
     margin-bottom: 40px;
     font-size: 1.125rem;
@@ -317,7 +323,7 @@ nav.container{
     border: none;
 }
 
-.run-right .run-img{
+.run-right .run-img {
     max-width: 466px;
     height: 312px;
     overflow: hidden;
@@ -330,7 +336,7 @@ nav.container{
 
 /* TODO: Shedule section Start */
 
-#shedule{
+#shedule {
     background-color: rgba(0, 0, 0, .3);
     background-image: url("../images/exercise4.png");
     background-blend-mode: overlay;
@@ -339,7 +345,7 @@ nav.container{
     border-radius: 18px;
 }
 
-#shedule .left{
+#shedule .left {
     display: flex;
     width: 50%;
     flex-direction: column;
@@ -348,13 +354,13 @@ nav.container{
     gap: 20px;
 }
 
-#shedule .left h2{
+#shedule .left h2 {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 700;
 }
 
-#shedule .left button{
+#shedule .left button {
     /* align-content: center; */
     height: 54px;
     width: 324px;
@@ -366,13 +372,13 @@ nav.container{
     background: rgba(48, 48, 48, 0.54);
 }
 
-#shedule .right{
+#shedule .right {
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-#shedule .right h3{
+#shedule .right h3 {
     margin-top: 10px;
     text-align: center;
     font-size: 2.5rem;
@@ -382,7 +388,7 @@ nav.container{
     font-weight: 800;
 }
 
-.calendar{
+.calendar {
     margin-top: 25px;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -392,7 +398,9 @@ nav.container{
     border-radius: 18px;
     margin-bottom: 15px;
 }
-.date, .day{
+
+.date,
+.day {
     background-color: black;
     width: 35px;
     height: 35px;
@@ -404,12 +412,12 @@ nav.container{
     border: 1px solid rgb(222, 158, 47);
 }
 
-.day{
+.day {
     border-radius: 10px;
     font-size: 1em;
 }
 
-.today{
+.today {
     border: 3px solid red;
 }
 
@@ -418,7 +426,7 @@ nav.container{
 
 /* TODO: Before BMI sectin start */
 
-.before-bmi h2{
+.before-bmi h2 {
     margin-top: 50px;
     padding-left: 150px;
     font-size: 2rem;
@@ -426,7 +434,7 @@ nav.container{
 }
 
 
-.before-bmi p{
+.before-bmi p {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
     padding-left: 150px;
@@ -440,32 +448,34 @@ nav.container{
 /* TODO: BMI Section Start */
 
 
-.bmi-main-container{
+.bmi-main-container {
     margin-top: 50px;
     background: rgb(34, 34, 34);
 }
 
-.bmi{
+.bmi {
     display: grid;
     grid-template-columns: 1fr 2fr;
 }
 
-.bmi-left h3{
+.bmi-left h3 {
     margin-top: 35px;
     font-size: 1.5rem;
     font-weight: 800;
 }
-.bmi-right{
+
+.bmi-right {
     padding-left: 70px;
 }
 
-table{
+table {
     margin-top: 35px;
     border-collapse: collapse;
     border: 2px solid rgb(54, 54, 54);
 }
 
-th, td{
+th,
+td {
     border: 2px solid rgb(54, 54, 54);
     padding: 10px 40px;
     height: 30px;
@@ -475,41 +485,42 @@ th, td{
     color: rgba(255, 255, 255, 0.5);
 }
 
-th{
+th {
     font-size: 1.1rem;
     font-weight: 600;
     color: rgb(114, 114, 114);
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bmi-right h3{
+.bmi-right h3 {
     margin-top: 27px;
     font-size: 1.5rem;
     font-weight: 800;
 }
 
-.bmi-right p{
+.bmi-right p {
     margin-top: 10px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
 }
 
-.form{
+.form {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
 }
 
-.activity{
+.activity {
     grid-column: span 2;
 }
 
-.form{
+.form {
     margin-top: 15px;
 }
 
-.form input , .form select{
+.form input,
+.form select {
     outline: none;
     color: rgba(255, 255, 255, 0.5);
     height: 40px;
@@ -519,11 +530,11 @@ th{
     background-color: rgb(54, 54, 54) !important;
 }
 
-.form input::placeholder{
+.form input::placeholder {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.bmi-right form button{
+.bmi-right form button {
     margin-top: 5px;
     margin-bottom: 20px;
     font-size: 1.125rem;
@@ -538,21 +549,22 @@ th{
 /* BMI Section Style END */
 
 /* TODO: Team section Start */
-.team-container{
+.team-container {
     margin-top: 100px;
 }
 
-.team-header{
+.team-header {
     margin-top: 50px;
     text-align: center;
-    margin-bottom:60px;
+    margin-bottom: 60px;
 }
 
-.team-header h2{
+.team-header h2 {
     font-size: 2.5rem;
     font-weight: 900;
 }
-.team-header p{
+
+.team-header p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
@@ -561,16 +573,18 @@ th{
     margin-top: 10px;
 }
 
-.team-cards{
+.team-cards {
     background: rgb(34, 34, 34);
     border-radius: 18px;
 }
-.card-img{
+
+.card-img {
     border-radius: 18px;
     height: 300px;
     width: 350px;
 }
-.team-container .team-cards{
+
+.team-container .team-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 20px;
@@ -579,27 +593,29 @@ th{
     border-radius: 18px;
 }
 
-.team-cards > div{
+.team-cards>div {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 
-.card-img{
+.card-img {
     position: relative;
 }
 
-.card-text{
+.card-text {
     position: absolute;
     bottom: 15px;
     left: 15px;
 }
-.card-text h4{
+
+.card-text h4 {
     font-size: 1.3rem;
     font-weight: 700;
 }
-.card-text p{
+
+.card-text p {
     font-size: 1rem;
     font-weight: 400;
     color: rgba(239, 237, 232, 0.65);
@@ -610,18 +626,18 @@ th{
 
 /* TODO: Footer Section Start */
 
-footer{
+footer {
     margin-top: 70px;
     background: rgb(34, 34, 34);
 }
 
 
-.footer-content{
+.footer-content {
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
 }
 
-.footer-left h2{
+.footer-left h2 {
     padding-top: 35px;
     color: rgb(230, 83, 60);
     font-size: 3.25rem;
@@ -629,7 +645,7 @@ footer{
     font-style: italic;
 }
 
-.footer-left p{
+.footer-left p {
     margin-top: 15px;
     max-width: 450px;
     color: rgba(255, 255, 255, 0.5);
@@ -637,14 +653,15 @@ footer{
     line-height: 24px;
 }
 
-.footer-middle h3, .footer-right h3{
+.footer-middle h3,
+.footer-right h3 {
     margin-top: 30px;
     font-size: 1.5rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
 
-.footer-nav a{
+.footer-nav a {
     display: block;
     text-decoration: none;
     line-height: 32px;
@@ -652,12 +669,12 @@ footer{
     font-size: 1.150rem;
 }
 
-hr{
+hr {
     margin-top: 30px;
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-footer .coppy{
+footer .coppy {
     margin-top: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
@@ -675,29 +692,29 @@ footer .coppy{
 /* TODO: Mobile Responsive */
 
 @media screen and (max-width:1200px) {
-    .container{
+    .container {
         max-width: 960px;
         /* max-width: 1140px; */
     }
 }
 
 @media screen and (max-width:992px) {
-    .container{
+    .container {
         max-width: 720px;
     }
 }
 
 @media screen and (max-width:768px) {
-    .container{
+    .container {
         max-width: 540px;
     }
 
-    .nav-btn-container{
+    .nav-btn-container {
         display: none;
     }
 
 
-    .nav-hamburger-menu{
+    .nav-hamburger-menu {
         display: block;
     }
 
@@ -707,39 +724,39 @@ footer .coppy{
 
 @media screen and (max-width:576px) {
 
-    .container{
+    .container {
         padding: 0px 30px;
-        
+
     }
 
 
     /*TODO Banner section style */
-    #banner{
+    #banner {
         flex-direction: column;
     }
 
 
-    .banner-left h2{
+    .banner-left h2 {
         font-size: 2.5rem;
     }
 
-    .miama-font{
+    .miama-font {
 
         font-size: 5rem;
     }
 
 
-    .banner-btn-container button{
+    .banner-btn-container button {
         width: 185px;
     }
 
 
-    .banner-right .transparent-one{
+    .banner-right .transparent-one {
         margin-top: -311px;
         margin-left: 16px;
     }
 
-    .banner-right .transparent-two{
+    .banner-right .transparent-two {
         margin-top: -540px;
         margin-left: 216px;
     }
@@ -747,60 +764,60 @@ footer .coppy{
 
     /* TODO Habit Section */
 
-    #habit-main-container{
+    #habit-main-container {
         margin-top: 0px;
     }
 
-    .habit-change{
+    .habit-change {
         width: 318px;
     }
 
-    .habit-change h3{
+    .habit-change h3 {
         font-size: 2rem;
         font-weight: 900;
     }
-    
-    .habit-card-container{
+
+    .habit-card-container {
         flex-direction: column;
     }
 
     /* TODO: Run container */
-    .run-container{
+    .run-container {
         flex-direction: column;
         margin: 0 30px;
         padding-left: 20px;
     }
 
-    .run-right .run-img{
+    .run-right .run-img {
         max-width: 466px;
         height: 312px;
         margin-bottom: 27px;
     }
 
-    .run-left .run-left-content button{
+    .run-left .run-left-content button {
         display: block;
         margin: 0 auto;
         margin-top: 28px;
         width: 324px;
     }
- 
+
 
     /* TODO Extra section */
-    #shedule{
+    #shedule {
         flex-direction: column;
     }
 
-    #shedule .left{
+    #shedule .left {
         margin: 0 auto;
     }
 
 
     /* TODO Before BMI section */
-    .before-bmi h2{
+    .before-bmi h2 {
         padding-left: 4px;
     }
 
-    .before-bmi p{
+    .before-bmi p {
         max-width: 320px;
         padding-left: 4px;
     }
@@ -808,31 +825,31 @@ footer .coppy{
 
     /* TODO BMI Section */
 
-    .bmi{
+    .bmi {
         grid-template-columns: 1fr;
     }
 
-    .bmi-right{
+    .bmi-right {
         padding: 0;
     }
 
     /* TODO Team section */
 
-    .team-header p{
+    .team-header p {
         max-width: 320px;
     }
 
-    .team-container .team-cards{
+    .team-container .team-cards {
         grid-template-columns: 1fr;
     }
 
 
     /* TODO Footer section */
 
-    .footer-content{
+    .footer-content {
         grid-template-columns: 1fr;
     }
-    
+
 }
 
 
