@@ -38,8 +38,37 @@
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
     height: 100%;
+}
+
+.w-100 {
+    max-width: 100%;
+}
+
+input, select{
+    width: 100%;
+}
+
+.primary_button {
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    border: none;
+    text-wrap: nowrap;
+    padding: 10px 20px;
+}
+
+.secondary_button {
+    font-size: 1.125rem;
+    font-weight: 600;
+    border-radius: 42px;
+    border: none;
+    text-wrap: nowrap;
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    background-color: transparent;
 }
 
 /* TODO Shared style END */
@@ -59,17 +88,17 @@ nav.container {
 }
 
 .nav-btn-container {
-    width: 480px;
+    max-width: 480px;
 }
 
 .nav-btn-container {
     border: 1px solid gray;
     border-radius: 50px;
     align-items: center;
-    padding: 7px 0;
+    padding: 3px;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 10px;
 }
 
 .nav-btn {
@@ -77,10 +106,11 @@ nav.container {
     font-weight: 600;
     border-radius: 50px;
     background: black;
-    width: 92px;
+    max-width: 92px;
     height: 38px;
     border: none;
     justify-content: center;
+    padding: 0 10px;
 }
 
 .nav-hamburger-menu {
@@ -94,10 +124,16 @@ nav.container {
     margin-top: 30px;
 }
 
+.banner_buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
 .banner-left {
     margin-top: 10px;
-    margin-right: 250px;
-    width: 65%;
+    /* margin-right: 250px; */
+    max-width: 65%;
 }
 
 .banner-right {
@@ -137,7 +173,7 @@ nav.container {
     margin-top: 28px;
     font-size: 1.125rem;
     font-weight: 600;
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -153,11 +189,13 @@ nav.container {
 
 .banner-right .transparent-one {
     position: absolute;
-    width: 173px;
+    max-width: 173px;
     height: 84px;
-    margin-top: -132px;
-    margin-left: -104px;
+    /* margin-top: -132px;
+    margin-left: -104px; */
     border: 1px solid rgba(255, 255, 255, 0.1);
+    top: 10px;
+    right: 30%;
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
@@ -166,10 +204,12 @@ nav.container {
 
 .banner-right .transparent-two {
     position: absolute;
-    width: 173px;
+    max-width: 173px;
     height: 84px;
-    margin-top: -357px;
-    margin-left: 170px;
+    /* margin-top: -357px;
+    margin-left: 170px; */
+    left: 10px;
+    bottom: 10px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
@@ -179,7 +219,7 @@ nav.container {
 .banner-right .transparent-one .orange-circle {
     margin-top: 27px;
     margin-left: 10px;
-    width: 30px;
+    max-width: 30px;
     height: 30px;
     border-radius: 50%;
     background: rgb(230, 83, 60);
@@ -232,7 +272,7 @@ nav.container {
 
 .habit-change {
     text-align: center;
-    width: 670px;
+    max-width: 670px;
     margin: 0 auto;
 }
 
@@ -256,14 +296,16 @@ nav.container {
 }
 
 .card {
-    width: 231px;
-    height: 274px;
+    /* max-width: 231px;
+    height: 274px; */
+    max-width: 100%;
     text-align: center;
     margin: 0 auto;
+    padding: 0 30px;
 }
 
 .card img {
-    width: 180px;
+    max-width: 180px;
     height: 180px;
     border: 5px solid rgba(255, 255, 255, 0.5);
     border-radius: 50%;
@@ -311,17 +353,17 @@ nav.container {
     line-height: 24px;
 }
 
-.run-left button {
+/* .run-left button {
     margin-top: 28px;
     margin-bottom: 40px;
     font-size: 1.125rem;
     font-weight: 600;
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
-}
+} */
 
 .run-right .run-img {
     max-width: 466px;
@@ -347,7 +389,7 @@ nav.container {
 
 #shedule .left {
     display: flex;
-    width: 50%;
+    /* max-width: 50%; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -362,8 +404,9 @@ nav.container {
 
 #shedule .left button {
     /* align-content: center; */
+    width: 100%;
     height: 54px;
-    width: 324px;
+    max-width: 324px;
     border-radius: 42px;
     border: 1px solid white;
     font-size: 1.125rem;
@@ -402,7 +445,7 @@ nav.container {
 .date,
 .day {
     background-color: black;
-    width: 35px;
+    max-width: 35px;
     height: 35px;
     border-radius: 50%;
     display: flex;
@@ -539,7 +582,7 @@ th {
     margin-bottom: 20px;
     font-size: 1.125rem;
     font-weight: 600;
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
@@ -581,7 +624,7 @@ th {
 .card-img {
     border-radius: 18px;
     height: 300px;
-    width: 350px;
+    /* max-width: 350px; */
 }
 
 .team-container .team-cards {
@@ -729,6 +772,26 @@ footer .coppy {
 
     }
 
+    .primary_button {
+        font-size: .75rem;
+    }
+
+    .secondary_button {
+        font-size: .75rem;
+    }
+
+    .banner-left,
+    .banner-right {
+        max-width: 100%;
+        margin: 0;
+        /* padding: 0 20px; */
+    }
+
+    th,
+    td {
+        padding: 10px 10px;
+    }
+
 
     /*TODO Banner section style */
     #banner {
@@ -747,18 +810,18 @@ footer .coppy {
 
 
     .banner-btn-container button {
-        width: 185px;
+        max-width: 185px;
     }
 
 
     .banner-right .transparent-one {
-        margin-top: -311px;
-        margin-left: 16px;
+        /* margin-top: -311px;
+        margin-left: 16px; */
     }
 
     .banner-right .transparent-two {
-        margin-top: -540px;
-        margin-left: 216px;
+        /* margin-top: -540px;
+        margin-left: 216px; */
     }
 
 
@@ -768,9 +831,9 @@ footer .coppy {
         margin-top: 0px;
     }
 
-    .habit-change {
-        width: 318px;
-    }
+    /* .habit-change {
+        max-width: 318px;
+    } */
 
     .habit-change h3 {
         font-size: 2rem;
@@ -789,16 +852,20 @@ footer .coppy {
     }
 
     .run-right .run-img {
-        max-width: 466px;
+        /* max-width: 466px; */
         height: 312px;
         margin-bottom: 27px;
+    }
+
+    .run-img img {
+        width: 100%;
     }
 
     .run-left .run-left-content button {
         display: block;
         margin: 0 auto;
         margin-top: 28px;
-        width: 324px;
+        max-width: 324px;
     }
 
 
@@ -809,7 +876,6 @@ footer .coppy {
 
     #shedule .left {
         margin: 0 auto;
-    }
 
 
     /* TODO Before BMI section */
