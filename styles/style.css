@@ -57,7 +57,7 @@ input, select{
     background: rgb(230, 83, 60);
     border: none;
     text-wrap: nowrap;
-    padding: 10px 20px;
+    padding: 10px 30px;
 }
 
 .secondary_button {
@@ -66,7 +66,7 @@ input, select{
     border-radius: 42px;
     border: none;
     text-wrap: nowrap;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border: 1px solid #fff;
     background-color: transparent;
 }
@@ -110,7 +110,7 @@ nav.container {
     height: 38px;
     border: none;
     justify-content: center;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 
 .nav-hamburger-menu {
@@ -122,6 +122,7 @@ nav.container {
 
 #banner {
     margin-top: 30px;
+    background: radial-gradient(#2f2d2d, #000000 , black);
 }
 
 .banner_buttons {
@@ -139,6 +140,7 @@ nav.container {
 .banner-right {
     position: relative;
     margin-right: 70px;
+    /* background-image: url("../images/banner-img.png"); */
 }
 
 .banner-left h2 {
@@ -190,40 +192,52 @@ nav.container {
 
 .banner-right .transparent-one {
     position: absolute;
-    max-width: 173px;
-    height: 84px;
+    /* max-width: 173px; */
+    /* height: 84px; */
     /* margin-top: -132px;
     margin-left: -104px; */
     border: 1px solid rgba(255, 255, 255, 0.1);
-    top: 10px;
-    right: 30%;
+    bottom: 80px;
+    left: -20px;
+    /* left: 30%; */
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+    padding: 10px;
 }
 
 
 .banner-right .transparent-two {
     position: absolute;
-    max-width: 173px;
-    height: 84px;
+    /* position: fixed; */
+    
+    /* max-width: 173px;
+    height: 84px; */
+
+    padding: 7px 12px;
+    text-wrap: nowrap;
     /* margin-top: -357px;
     margin-left: 170px; */
-    left: 10px;
-    bottom: 10px;
+    left: 190px;
+    bottom: 400px;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+    text-align: center;
 }
 
 .banner-right .transparent-one .orange-circle {
-    margin-top: 27px;
-    margin-left: 10px;
-    max-width: 30px;
+    margin-top: 13px;
+    margin-left: 2px;
+    /* max-width: 30px; */
+    width: 30px;
     height: 30px;
     border-radius: 50%;
     background: rgb(230, 83, 60);
+}
+#play{
+    display: none;
 }
 
 
@@ -234,30 +248,31 @@ nav.container {
 .transparent-one .num350 {
     display: inline-block;
     margin-left: 12px;
-    margin-top: 15px;
+    /* margin-top: 15px; */
     font-size: 1.5rem;
     font-weight: 900;
 }
 
 .transparent-one .text {
     display: inline-block;
-    margin-left: 10px;
-    margin-top: 3px;
+    /* margin-left: 10px; */
+    /* margin-top: 3px; */
     color: rgba(239, 237, 232, 0.65);
     font-size: 1rem;
     font-weight: 400;
+    padding-left: 5px;
 }
 
 .transparent-two .num500 {
     display: inline-block;
-    margin-top: 5px;
-    padding-left: 27px;
-    font-size: 2.5rem;
+    /* margin-top: 5px;
+    padding-left: 27px; */
+    font-size: 2.125rem;
     font-weight: 900;
 }
 
 .transparent-two .text {
-    padding-left: 27px;
+    /* padding-left: 27px; */
     font-size: 0.8125rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
@@ -268,7 +283,7 @@ nav.container {
 
 /* TODO: Habit Section Start */
 #habit-main-container {
-    margin-top: 110px;
+    margin-top: 100px;
 }
 
 .habit-change {
@@ -829,6 +844,41 @@ footer .coppy {
         /* margin-top: -540px;
         margin-left: 216px; */
     }
+
+    .banner-right img{
+        /* background-color: green; */
+        margin-left: 20px ;
+        /* align-items: center; */
+        
+    }
+    
+
+    #play{
+        display: block;
+    }
+
+
+
+
+    .banner-right .transparent-two {
+        left: 190px;
+        bottom: 330px;
+    }
+
+
+    .transparent-two .num500 {
+        font-size: 1.5rem;
+    }
+    
+
+
+
+
+
+
+
+
+
 
 
     /* TODO Habit Section */
