@@ -133,14 +133,12 @@ nav.container {
 
 .banner-left {
     margin-top: 10px;
-    /* margin-right: 250px; */
     max-width: 65%;
 }
 
 .banner-right {
     position: relative;
     margin-right: 70px;
-    /* background-image: url("../images/banner-img.png"); */
 }
 
 .banner-left h2 {
@@ -192,14 +190,9 @@ nav.container {
 
 .banner-right .transparent-one {
     position: absolute;
-    /* max-width: 173px; */
-    /* height: 84px; */
-    /* margin-top: -132px;
-    margin-left: -104px; */
     border: 1px solid rgba(255, 255, 255, 0.1);
     bottom: 80px;
     left: -20px;
-    /* left: 30%; */
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
@@ -209,15 +202,8 @@ nav.container {
 
 .banner-right .transparent-two {
     position: absolute;
-    /* position: fixed; */
-    
-    /* max-width: 173px;
-    height: 84px; */
-
     padding: 7px 12px;
     text-wrap: nowrap;
-    /* margin-top: -357px;
-    margin-left: 170px; */
     left: 190px;
     bottom: 400px;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -230,7 +216,6 @@ nav.container {
 .banner-right .transparent-one .orange-circle {
     margin-top: 13px;
     margin-left: 2px;
-    /* max-width: 30px; */
     width: 30px;
     height: 30px;
     border-radius: 50%;
@@ -240,7 +225,6 @@ nav.container {
     display: none;
 }
 
-
 .transparent-one {
     display: flex;
 }
@@ -248,15 +232,12 @@ nav.container {
 .transparent-one .num350 {
     display: inline-block;
     margin-left: 12px;
-    /* margin-top: 15px; */
     font-size: 1.5rem;
     font-weight: 900;
 }
 
 .transparent-one .text {
     display: inline-block;
-    /* margin-left: 10px; */
-    /* margin-top: 3px; */
     color: rgba(239, 237, 232, 0.65);
     font-size: 1rem;
     font-weight: 400;
@@ -265,14 +246,11 @@ nav.container {
 
 .transparent-two .num500 {
     display: inline-block;
-    /* margin-top: 5px;
-    padding-left: 27px; */
     font-size: 2.125rem;
     font-weight: 900;
 }
 
 .transparent-two .text {
-    /* padding-left: 27px; */
     font-size: 0.8125rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.65);
@@ -312,8 +290,6 @@ nav.container {
 }
 
 .card {
-    /* max-width: 231px;
-    height: 274px; */
     max-width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -360,8 +336,6 @@ nav.container {
 .run-left-content h2 {
     margin-top: 40px;
     font-size: 3rem;
-    font-weight: 800;
-    /* line-height: 120%; */
 }
 
 .run-left p {
@@ -396,15 +370,12 @@ nav.container {
     background-image: url("../images/exercise4.png");
     background-blend-mode: overlay;
     display: flex;
-    /* justify-content: space-between; */
     flex-direction: row;
     border-radius: 18px;
 }
 
 #shedule .left {
-     /* background-color: red; */
     display: flex;
-    /* max-width: 50%; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -419,7 +390,6 @@ nav.container {
 }
 
 #shedule .left button {
-    /* align-content: center; */
     width: 70%;
     height: 54px;
     max-width: 324px;
@@ -432,7 +402,6 @@ nav.container {
 }
 
 #shedule .right {
-    /* background-color: yellow; */
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -462,8 +431,6 @@ nav.container {
 .date,
 .day {
     background-color: black;
-    /* max-width: 35px; */
-    /* height: 35px; */
     padding: 3px;
     border-radius: 50%;
     display: flex;
@@ -578,11 +545,10 @@ th {
 }
 
 
-
 .form input,
 .form select {
     outline: none;
-    /* color: rgba(255, 255, 255, 0.5); */
+    color: rgba(255, 255, 255, 0.5);
     height: 40px;
     padding-left: 10px;
     border-radius: 7px;
@@ -600,7 +566,6 @@ th {
     margin-bottom: 20px;
     font-size: 1.125rem;
     font-weight: 600;
-    /* max-width: 200px; */
     padding: 10px 70px;
     height: 50px;
     border-radius: 42px;
@@ -644,7 +609,6 @@ th {
 .card-img {
     border-radius: 18px;
     height: 300px;
-    /* max-width: 350px; */
 }
 
 .team-container .team-cards {
@@ -734,7 +698,6 @@ footer {
 
 hr {
     margin-top: 30px;
-    /* border-color: rgba(255, 255, 255, 0.5); */
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
@@ -744,12 +707,6 @@ footer .coppy {
     color: rgba(255, 255, 255, 0.5);
     padding-bottom: 1.25rem;
 }
-
-
-/* IMPORTANT: */
-/* nav.container.random{
-    background-color: red;
-} */
 
 
 
@@ -805,7 +762,6 @@ footer .coppy {
     .banner-right {
         max-width: 100%;
         margin: 0;
-        /* padding: 0 20px; */
     }
 
     th,
@@ -842,29 +798,14 @@ footer .coppy {
     }
 
 
-    .banner-right .transparent-one {
-        /* margin-top: -311px;
-        margin-left: 16px; */
-    }
-
-    .banner-right .transparent-two {
-        /* margin-top: -540px;
-        margin-left: 216px; */
-    }
-
     .banner-right img{
-        /* background-color: green; */
-        margin-left: 20px ;
-        /* align-items: center; */
-        
+        margin-left: 20px ;        
     }
     
 
     #play{
         display: block;
     }
-
-
 
 
     .banner-right .transparent-two {
@@ -876,16 +817,6 @@ footer .coppy {
     .transparent-two .num500 {
         font-size: 1.5rem;
     }
-    
-
-
-
-
-
-
-
-
-
 
 
     /* TODO Habit Section */
@@ -893,10 +824,6 @@ footer .coppy {
     #habit-main-container {
         margin-top: 0px;
     }
-
-    /* .habit-change {
-        max-width: 318px;
-    } */
 
     .habit-change h3 {
         font-size: 2rem;
@@ -916,17 +843,14 @@ footer .coppy {
     }
 
 
-
     .run-left-content h2 {
         margin-top: 40px;
         font-size: 1.8rem;
         font-weight: 800;
-        /* line-height: 120%; */
     }
 
 
     .run-right .run-img {
-        /* max-width: 466px; */
         height: 312px;
         margin-bottom: 27px;
     }
@@ -958,8 +882,6 @@ footer .coppy {
         font-size: 1.5rem;
     }
     .run-left button {
-        /* margin-top: 28px; */
-        /* padding: 15px 60px; */
         font-size: 1rem;
     }
 
