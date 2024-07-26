@@ -57,7 +57,7 @@ input, select{
     background: rgb(230, 83, 60);
     border: none;
     text-wrap: nowrap;
-    padding: 10px 30px;
+    padding: 15px 30px;
 }
 
 .secondary_button {
@@ -66,7 +66,7 @@ input, select{
     border-radius: 42px;
     border: none;
     text-wrap: nowrap;
-    padding: 10px 30px;
+    padding: 15px 30px;
     border: 1px solid #fff;
     background-color: transparent;
 }
@@ -321,6 +321,7 @@ nav.container {
 }
 
 .card img {
+    margin-top: 10px;
     max-width: 180px;
     height: 180px;
     border: 5px solid rgba(255, 255, 255, 0.5);
@@ -338,6 +339,7 @@ nav.container {
     font-size: 0.875rem;
     line-height: 18px;
     color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
 }
 
 /* TODO Habbit Section END */
@@ -358,8 +360,8 @@ nav.container {
 .run-left-content h2 {
     margin-top: 40px;
     font-size: 3rem;
-    font-weight: 900;
-    line-height: 120%;
+    font-weight: 800;
+    /* line-height: 120%; */
 }
 
 .run-left p {
@@ -369,17 +371,10 @@ nav.container {
     line-height: 24px;
 }
 
-/* .run-left button {
+.run-left button {
     margin-top: 28px;
-    margin-bottom: 40px;
-    font-size: 1.125rem;
-    font-weight: 600;
-    max-width: 200px;
-    height: 50px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    border: none;
-} */
+    padding: 15px 60px;
+}
 
 .run-right .run-img {
     max-width: 466px;
@@ -387,6 +382,7 @@ nav.container {
     overflow: hidden;
     margin-top: 27px;
     border-radius: 18px;
+    margin-bottom: 25px;
 }
 
 /* TODO Run section End */
@@ -395,32 +391,36 @@ nav.container {
 /* TODO: Shedule section Start */
 
 #shedule {
+    margin-top: 100px;
     background-color: rgba(0, 0, 0, .3);
     background-image: url("../images/exercise4.png");
     background-blend-mode: overlay;
     display: flex;
+    /* justify-content: space-between; */
     flex-direction: row;
     border-radius: 18px;
 }
 
 #shedule .left {
+     /* background-color: red; */
     display: flex;
     /* max-width: 50%; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 20px;
+    padding-left: 150px;
 }
 
 #shedule .left h2 {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 700;
 }
 
 #shedule .left button {
     /* align-content: center; */
-    width: 100%;
+    width: 70%;
     height: 54px;
     max-width: 324px;
     border-radius: 42px;
@@ -432,6 +432,7 @@ nav.container {
 }
 
 #shedule .right {
+    /* background-color: yellow; */
     margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -487,10 +488,10 @@ nav.container {
 /* TODO: Before BMI sectin start */
 
 .before-bmi h2 {
-    margin-top: 50px;
+    margin-top: 66px;
     padding-left: 150px;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 900;
 }
 
 
@@ -509,7 +510,7 @@ nav.container {
 
 
 .bmi-main-container {
-    margin-top: 50px;
+    margin-top: 66px;
     background: rgb(34, 34, 34);
 }
 
@@ -519,8 +520,8 @@ nav.container {
 }
 
 .bmi-left h3 {
-    margin-top: 35px;
-    font-size: 1.5rem;
+    margin-top: 52px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 
@@ -529,7 +530,7 @@ nav.container {
 }
 
 table {
-    margin-top: 35px;
+    margin-top: 52px;
     border-collapse: collapse;
     border: 2px solid rgb(54, 54, 54);
 }
@@ -553,19 +554,20 @@ th {
 }
 
 .bmi-right h3 {
-    margin-top: 27px;
-    font-size: 1.5rem;
+    margin-top: 52px;
+    font-size: 1.75rem;
     font-weight: 800;
 }
 
 .bmi-right p {
-    margin-top: 10px;
+    margin-top: 14px;
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     line-height: 24px;
 }
 
 .form {
+    margin-top: 32px;
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
@@ -575,18 +577,17 @@ th {
     grid-column: span 2;
 }
 
-.form {
-    margin-top: 15px;
-}
+
 
 .form input,
 .form select {
     outline: none;
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
     height: 40px;
     padding-left: 10px;
     border-radius: 7px;
     border: none;
+    font-size: 1rem;
     background-color: rgb(54, 54, 54) !important;
 }
 
@@ -595,15 +596,17 @@ th {
 }
 
 .bmi-right form button {
-    margin-top: 5px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.125rem;
     font-weight: 600;
-    max-width: 200px;
+    /* max-width: 200px; */
+    padding: 10px 70px;
     height: 50px;
     border-radius: 42px;
     background: rgb(230, 83, 60);
     border: none;
+    margin-bottom: 50px;
 }
 
 /* BMI Section Style END */
@@ -616,7 +619,7 @@ th {
 .team-header {
     margin-top: 50px;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 66px;
 }
 
 .team-header h2 {
@@ -687,7 +690,7 @@ th {
 /* TODO: Footer Section Start */
 
 footer {
-    margin-top: 70px;
+    margin-top: 88px;
     background: rgb(34, 34, 34);
 }
 
@@ -698,7 +701,7 @@ footer {
 }
 
 .footer-left h2 {
-    padding-top: 35px;
+    padding-top: 66px;
     color: rgb(230, 83, 60);
     font-size: 3.25rem;
     font-weight: 800;
@@ -706,17 +709,17 @@ footer {
 }
 
 .footer-left p {
-    margin-top: 15px;
+    margin-top: 20px;
     max-width: 450px;
     color: rgba(255, 255, 255, 0.5);
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 24px;
 }
 
 .footer-middle h3,
 .footer-right h3 {
-    margin-top: 30px;
-    font-size: 1.5rem;
+    margin-top: 66px;
+    font-size: 2rem;
     font-weight: 800;
     margin-bottom: 20px;
 }
@@ -731,14 +734,15 @@ footer {
 
 hr {
     margin-top: 30px;
-    border-color: rgba(255, 255, 255, 0.5);
+    /* border-color: rgba(255, 255, 255, 0.5); */
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 footer .coppy {
     margin-top: 20px;
     text-align: center;
     color: rgba(255, 255, 255, 0.5);
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 
@@ -790,11 +794,11 @@ footer .coppy {
     }
 
     .primary_button {
-        font-size: .75rem;
+        font-size: .9rem;
     }
 
     .secondary_button {
-        font-size: .75rem;
+        font-size: .9rem;
     }
 
     .banner-left,
@@ -832,6 +836,9 @@ footer .coppy {
 
     .banner-btn-container button {
         max-width: 185px;
+    }
+    .banner_buttons button{
+        font-size: .9rem;
     }
 
 
@@ -904,8 +911,19 @@ footer .coppy {
     .run-container {
         flex-direction: column;
         margin: 0 30px;
+        margin-top: 66px;
         padding-left: 20px;
     }
+
+
+
+    .run-left-content h2 {
+        margin-top: 40px;
+        font-size: 1.8rem;
+        font-weight: 800;
+        /* line-height: 120%; */
+    }
+
 
     .run-right .run-img {
         /* max-width: 466px; */
@@ -925,13 +943,24 @@ footer .coppy {
     }
 
 
-    /* TODO Extra section */
+    /* TODO Shedule Extra section */
     #shedule {
+        margin-top: 66px;
         flex-direction: column;
     }
 
     #shedule .left {
         margin: 0 auto;
+        padding-left: 0px;
+    }
+
+    #shedule .left h2{
+        font-size: 1.5rem;
+    }
+    .run-left button {
+        /* margin-top: 28px; */
+        /* padding: 15px 60px; */
+        font-size: 1rem;
     }
 
     /* TODO Before BMI section */
