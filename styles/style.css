@@ -46,7 +46,8 @@ img {
     max-width: 100%;
 }
 
-input, select{
+input,
+select {
     width: 100%;
 }
 
@@ -122,7 +123,7 @@ nav.container {
 
 #banner {
     margin-top: 30px;
-    background: radial-gradient(#2f2d2d, #000000 , black);
+    background: radial-gradient(#2f2d2d, #000000, black);
 }
 
 .banner_buttons {
@@ -220,9 +221,6 @@ nav.container {
     height: 30px;
     border-radius: 50%;
     background: rgb(230, 83, 60);
-}
-#play{
-    display: none;
 }
 
 .transparent-one {
@@ -784,6 +782,7 @@ footer .coppy {
 
         font-size: 5rem;
     }
+
     .banner-left p {
 
         padding-right: 10px;
@@ -793,18 +792,14 @@ footer .coppy {
     .banner-btn-container button {
         max-width: 185px;
     }
-    .banner_buttons button{
+
+    .banner_buttons button {
         font-size: .9rem;
     }
 
 
-    .banner-right img{
-        margin-left: 20px ;        
-    }
-    
-
-    #play{
-        display: block;
+    .banner-right img {
+        margin-left: 20px;
     }
 
 
@@ -878,9 +873,10 @@ footer .coppy {
         padding-left: 0px;
     }
 
-    #shedule .left h2{
+    #shedule .left h2 {
         font-size: 1.5rem;
     }
+
     .run-left button {
         font-size: 1rem;
     }
